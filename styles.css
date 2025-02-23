@@ -1,6 +1,13 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 30px 30px 30px 30px;
+    padding: 20px;
+}
+
 ul li{
     display: inline;
-    margin: 0 150px;
+    margin: 0 50px;
 }
 
 .perfil{
