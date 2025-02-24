@@ -1,8 +1,11 @@
+/*estilos generales*/
+
 body{
     font-family: Arial, sans-serif;
     background-color: white;
-    margin: 30px 30px 30px 30px;
+    margin: 0;
     padding: 20px;
+    overflow-x: hidden;
 }
 
 ul li{
@@ -10,34 +13,96 @@ ul li{
     margin: 0 50px;
 }
 
-.perfil{
-    margin: 30px 10px 5px 30px;
-    text-align: justify;
-    padding-right: 800px;
+/*fin estilos generales*/
+
+/*estilos del perfil*/
+
+#profile{
+    border-bottom: black 1px solid;
+    padding: 20px;
 }
 
-.nombre{
-    font-weight: bold;
+
+.profile-bloque {
+    display: flex;
+    width: 100vw; /*Ancho del contenedor*/
+    justify-content: space-between;
+    align-items: flex-start; 
 }
+
+.profile {
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: justify;
+}
+
+.sidebar {
+    width: 35px; /*ancho del rectángulo*/
+    height: 52%; /*alto del rectángulo*/
+    background-color: #f5c9a5;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.nombre {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+
+#bloque{
+    font-size: 25px;
+    color: #85776a;
+    width: 300px;
+    background-color: #ffd2ab;
+    padding-left: 15px;
+}
+
+/*fin estilos del perfil*/
+
+
+/*estilos de educación*/
 
 .education{
     background-color: white;
-    width: 100%;
     padding-left: 50px;
     padding-right: 50px;
+    margin-top: 40px;
 }
 
 .education-container{
     display: flex;
+    align-items: flex-start; /* Alinea los elementos al inicio */
 }
 
 .education-element{
     padding: 25px 25px 25px 0px;
     width: 50%;
     text-align: justify;
+   
 }
 
-.borde{
-    border-left: 3px;
+
+.education-element-borde{
+    border-left: black 1px solid;
     padding-left: 25px;
+    width: 50%;
+    text-align: justify;
+}
+
+.progress{
+    background-color: #000000; /* Color de fondo de la barra de progreso */
+    border-radius: 5px; /* Bordes redondeados */
+    height: 20px; /* Altura de la barra de progreso */
+    width: 100%; /* Ancho de la barra de progreso */
+}
+
+.progress-bar {
+    background-color: #4caf50; /* Color de la barra de progreso */
+    height: 100%; /* Altura de la barra de progreso */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: width 0.5s; /* Transición suave al cambiar el ancho */
 }
