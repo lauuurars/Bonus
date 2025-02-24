@@ -491,3 +491,41 @@ ul li{
 
 /*fin estilos de certification*/
 
+/*estilos de hobbies*/
+
+.hobbies{
+    width: 100%;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 35px;
+}
+
+.hobbies-container{
+    display: flex;
+    padding: 20px;
+}
+
+.hobby{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 180px;
+}
+
+.hobby img{
+    width: 50px;
+    height: 50px;
+    border-radius: 70px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.hobby p{
+    font-size: 20px;
+}
+
+.hobbies h2{
+    margin-top: 0px;
+    padding-top: 25px;
+}
