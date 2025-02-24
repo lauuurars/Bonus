@@ -27,7 +27,6 @@ ul li{
     display: flex;
     width: 100vw; /*Ancho del contenedor*/
     justify-content: space-between;
-    align-items: flex-start; 
 }
 
 .profile {
@@ -67,42 +66,76 @@ ul li{
 /*estilos de educación*/
 
 .education{
-    background-color: white;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin-top: 40px;
+    width: 100%;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 35px;
 }
 
 .education-container{
     display: flex;
-    align-items: flex-start; /* Alinea los elementos al inicio */
 }
 
 .education-element{
     padding: 25px 25px 25px 0px;
     width: 50%;
     text-align: justify;
-   
+}
+
+.borde{
+    padding-left: 50px;
+    border-left: 1px solid black;
+}
+
+#education-bloque{
+    padding-bottom: 30px;
+    border-bottom: 1px solid black;
 }
 
 
-.education-element-borde{
-    border-left: black 1px solid;
-    padding-left: 25px;
+.experience{
+    width: 100%;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 35px;
+}
+
+.experience-container{
+    display: flex;
+}
+
+.experience-element{
+    padding: 25px 25px 25px 0px;
     width: 50%;
     text-align: justify;
 }
 
-.progress{
-    background-color: #000000; /* Color de fondo de la barra de progreso */
-    border-radius: 5px; /* Bordes redondeados */
-    height: 20px; /* Altura de la barra de progreso */
-    width: 100%; /* Ancho de la barra de progreso */
+.borde{
+    padding-left: 50px;
+    border-left: 1px solid black;
 }
 
-.progress-bar {
-    background-color: #4caf50; /* Color de la barra de progreso */
-    height: 100%; /* Altura de la barra de progreso */
-    border-radius: 5px; /* Bordes redondeados */
-    transition: width 0.5s; /* Transición suave al cambiar el ancho */
+#junior-bloque{
+    padding-top: 30px;
+}
+
+.junior{
+    width: 100%;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.junior-container{
+    display: flex;
+}
+
+.junior-element{
+    padding: 25px 25px 25px 0px;
+    width: 50%;
+    text-align: justify;
+}
+
+.borde{
+    padding-left: 50px;
+    border-left: 1px solid black;
 }
